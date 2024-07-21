@@ -1,22 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Form from './Form';
+import FetchGitHub from './FetchGitHub';
+import CovidStates from './CovidState';
+import NasaApod from './Nasa';
+import MovieData from './FetchMovieData';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>Fetch GitHub Reposotories</h1>
+        {/* <FetchGitHub /> */}
+        {/* <CovidStates /> */}
+        {/* <NasaApod/> */}
+        <MovieData />
       </header>
     </div>
   );
